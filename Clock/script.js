@@ -2,7 +2,7 @@ const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
 
-var date = new Date();
+let date = new Date();
 console.log(date);
 let hr = date.getHours();
 let min = date.getMinutes();
@@ -25,4 +25,4 @@ function runTheClock() {
 
 }
 
-var interval = setInterval(runTheClock, 1000);
+let interval = setInterval(runTheClock, 1000);
